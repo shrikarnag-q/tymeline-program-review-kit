@@ -13,6 +13,7 @@ Manual worksheets from Tymeline for chip, firmware, equipment and qualification 
 - [Evidence-based tape-out readiness review](tape-out-readiness-review.md) for matching sign-off evidence to the release candidate and documenting pending waivers.
 - [Engineering PMO exception review](pmo-exception-review.md) for source-backed exceptions, missing evidence and proposed milestone changes.
 - [Semiconductor program commitment evidence review](commitment-evidence-review.md) for checking revision applicability, access boundaries and approval state.
+- [Governed hardware coordination review](governed-hardware-coordination-review.md) for evaluating a proposed board change across firmware, qualification and delivery.
 
 ## Semiconductor equipment review worksheet
 
