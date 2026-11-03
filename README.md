@@ -1,5 +1,9 @@
 # Semiconductor program review kit
 
+Manual worksheets from Tymeline for chip, firmware, equipment and qualification program reviews. Use the synthetic examples to evaluate evidence, dependencies and human approval.
+
+[Download the versioned November 2026 snapshot](https://github.com/shrikarnag-q/tymeline-program-review-kit/releases/tag/worksheets-2026-11) or open the latest worksheets below. The supplier worksheet on this branch includes a newer Jira, Perforce and supplier-message pilot.
+
 - [Equipment readiness worksheet](#semiconductor-equipment-review-worksheet) for configuration-specific verification evidence and release decisions.
 - [Post-freeze engineering change worksheet](rtl-change-review.md) for impact, re-verification and approval of a proposed RTL change.
 - [Customer qualification review worksheet](qualification-review.md) for reliability lots, shared test capacity and customer acceptance evidence.
