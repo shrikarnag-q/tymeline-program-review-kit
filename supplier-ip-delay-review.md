@@ -27,3 +27,11 @@ Set up three records in a test workspace or import sample records. All identifie
 | Supplier message | A dated update revises the delivery forecast from March 2 to March 9. | The review preserves the prior forecast, the revised forecast and the source message. |
 
 Ask each vendor to show the affected work, assumptions, recovery proposal and approval record. Try a proposed change with a user who lacks approval authority. Confirm the proposed date and existing commitment are distinguishable. Then have the authorized approver record a decision, and check which actions and evidence appear in the decision history.
+
+## Compare IP lifecycle and program coordination
+
+[Perforce IPLM](https://www.perforce.com/products/iplm) documents IP metadata, versioned releases and hierarchical bills of materials. If you use an IP lifecycle platform, add a fourth sandbox record. Use a bill of materials that shows the previous IP revision and the required new release, with an explicit firmware compatibility constraint.
+
+Run the supplier forecast change twice. First, change only the forecast and check whether reviewers can distinguish a delivery risk from a release or configuration change. Then supply the new IP revision and check which build and tests it affects. Ask each vendor to show where the release and compatibility evidence lives, how the supplier change reaches the milestone owner, and which person can approve a change to the committed tape-out date.
+
+Keep the IP release evidence, the projected program impact and the signed decision as separate records. Note any manual steps and confirm supported connectors and permissions in your deployment.
