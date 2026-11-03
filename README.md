@@ -4,6 +4,7 @@
 - [Post-freeze engineering change worksheet](rtl-change-review.md) for impact, re-verification and approval of a proposed RTL change.
 - [Customer qualification review worksheet](qualification-review.md) for reliability lots, shared test capacity and customer acceptance evidence.
 - [Air-gapped AI pilot acceptance worksheet](air-gapped-ai-pilot-review.md) for local inference, identity, engineering approvals, audit recovery and offline updates.
+- [Firmware sample readiness review](firmware-sample-readiness-review.md) for separating emulator work, physical bring-up and customer release decisions.
 
 ## Semiconductor equipment review worksheet
 
