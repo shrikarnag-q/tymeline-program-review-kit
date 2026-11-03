@@ -39,6 +39,8 @@ The illustrative integration result refers to `HW-A / FW-EXAMPLE-01`, while the 
 
 Replace the illustrative references with your own controlled evidence before using the worksheet for an actual program. Keep customer and engineering records within your authorized environment.
 
+If a proposed board change affects qualification and a customer milestone, use the [governed hardware coordination exercise](governed-hardware-coordination-review.md) to review each decision with its owner.
+
 ## Field guide
 
 | Fields | Purpose |

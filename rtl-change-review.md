@@ -25,6 +25,8 @@ The verification lead reviews which reset and integration checks must be repeate
 
 Keep actual revisions, artifacts and approval records inside your authorized environment. The example uses synthetic revisions and describes a manual review.
 
+For a board change that crosses firmware, qualification and delivery, use the [governed hardware coordination review](governed-hardware-coordination-review.md).
+
 ## Related guides from Tymeline
 
 - [RTL freeze and engineering change control](https://tymeline.ai/resources/rtl-freeze)
