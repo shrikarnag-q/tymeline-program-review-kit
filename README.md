@@ -12,6 +12,7 @@ Manual worksheets from Tymeline for chip, firmware, equipment and qualification 
 - [Supplier IP delay review](supplier-ip-delay-review.md) for tracing the effect of a revised supplier date and recording the approval.
 - [Evidence-based tape-out readiness review](tape-out-readiness-review.md) for matching sign-off evidence to the release candidate and documenting pending waivers.
 - [Engineering PMO exception review](pmo-exception-review.md) for source-backed exceptions, missing evidence and proposed milestone changes.
+- [Semiconductor program commitment evidence review](commitment-evidence-review.md) for checking revision applicability, access boundaries and approval state.
 
 ## Semiconductor equipment review worksheet
 
