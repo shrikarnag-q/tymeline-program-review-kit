@@ -10,6 +10,8 @@ Published by Tymeline. Use this manual worksheet to run a synthetic engineering 
 | Audit and recovery | Reconcile the proposal and both decisions against the local audit record. Restore the supported backup in the approved test environment and check the records again. | Restore scope and version, evidence of what survived, access restrictions and the retention owner. |
 | Offline updates | Follow the approved media intake process for a test update. Record integrity verification and exercise the supported recovery procedure. | Package identifier, verification result, custody and approver, and the version and workflow state after recovery. |
 
+Download the [blank pilot scorecard CSV](air-gapped-ai-pilot-scorecard.csv) to record the results of these checks. Confirm the proposed criteria with the enclave owner before testing.
+
 ## Copyable decision record
 
 - Enclave and permitted interfaces
