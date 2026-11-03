@@ -2,6 +2,7 @@
 
 - [Equipment readiness worksheet](#semiconductor-equipment-review-worksheet) for configuration-specific verification evidence and release decisions.
 - [Post-freeze engineering change worksheet](rtl-change-review.md) for impact, re-verification and approval of a proposed RTL change.
+- [Customer qualification review worksheet](qualification-review.md) for reliability lots, shared test capacity and customer acceptance evidence.
 
 ## Semiconductor equipment review worksheet
 
