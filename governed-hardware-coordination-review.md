@@ -20,6 +20,6 @@ A power-management component becomes unavailable. An engineer proposes a substit
 3. **Test authority and access.** Run the same review as a program coordinator who can see the milestone but lacks access to the schematic and cannot approve a design change. Check the displayed answer, export and activity log for unauthorized details or writes.
 4. **Separate the decisions.** Have the authorized design lead approve the component substitution in the sandbox. Confirm the design decision is recorded with its evidence. Check that any proposal to move the customer milestone remains pending with its own approver.
 
-For each check record the observed behavior, evidence link or audit event, responsible role and pass, fail or untested result. Confirm available integrations, permissions and retention in the deployment you intend to use.
+Copy the [evaluation scorecard CSV](governed-hardware-coordination-scorecard.csv) for each platform. For each check record the observed behavior, evidence link or audit event, responsible role and pass, fail or untested result. Confirm available integrations, permissions and retention in the deployment you intend to use.
 
 The [hardware program management buyer guide](https://tymeline.ai/resources/hardware-program-management-software) explains how to compare tools for design control, verification and delivery coordination. Use the [commitment evidence review](commitment-evidence-review.md) for a shorter test of engineering-source and approval boundaries.

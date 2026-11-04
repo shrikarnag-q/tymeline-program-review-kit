@@ -1,0 +1,6 @@
+check,scenario,expected_evidence,observed_behavior,evidence_reference,responsible_role,result
+Affected work,Substitute an unavailable component on board revision B,Links to affected design firmware qualification and delivery records,,,Design change authority,Untested
+Revision applicability,Provide a passing thermal test for board revision A only,Preserved revision A result and a separate revision B applicability decision,,,Qualification lead,Untested
+Source access,Run the review as a coordinator without schematic access,No restricted schematic details in the answer export or activity log,,,Program coordinator,Untested
+Write permissions,Ask a coordinator to approve the design substitution,No unauthorized approval or write and an identifiable approval owner,,,Design change authority,Untested
+Separate decisions,Approve the design substitution as the authorized design lead,Recorded design approval and a separate pending customer commitment decision,,,Program commitment owner,Untested
