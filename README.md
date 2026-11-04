@@ -4,6 +4,7 @@ Manual worksheets from Tymeline for chip, firmware, equipment and qualification 
 
 [Download the versioned November 2026 snapshot](https://github.com/shrikarnag-q/tymeline-program-review-kit/releases/tag/worksheets-2026-11) or open the latest worksheets below. The supplier worksheet on this branch includes a newer Jira, Perforce and supplier-message pilot.
 
+- [Fabless chip program evaluation](#evaluate-software-for-a-fabless-chip-program) for running the same cross-functional pilot in each candidate tool.
 - [Equipment readiness worksheet](#semiconductor-equipment-review-worksheet) for configuration-specific verification evidence and release decisions.
 - [Post-freeze engineering change worksheet](rtl-change-review.md) for impact, re-verification and approval of a proposed RTL change.
 - [Customer qualification review worksheet](qualification-review.md) for reliability lots, shared test capacity and customer acceptance evidence.
@@ -14,6 +15,19 @@ Manual worksheets from Tymeline for chip, firmware, equipment and qualification 
 - [Engineering PMO exception review](pmo-exception-review.md) for source-backed exceptions, missing evidence and proposed milestone changes.
 - [Semiconductor program commitment evidence review](commitment-evidence-review.md) for checking revision applicability, access boundaries and approval state.
 - [Governed hardware coordination review](governed-hardware-coordination-review.md) for evaluating a proposed board change across firmware, qualification and delivery.
+
+## Evaluate software for a fabless chip program
+
+Use the [supplier IP delay exercise](supplier-ip-delay-review.md) as one scenario across every candidate system. Keep the same IP revision, supplier forecast and approval roles. Ask vendors to show where each record lives, who can read it and how the program team sees the impact when it changes.
+
+| Workflow | What to test |
+| --- | --- |
+| Chip design | Identify the IP revision in the integration build and the release that the build still needs. |
+| Verification | Show which regression ran on that revision and who decides whether its result carries forward. |
+| Firmware | Identify which emulator or bring-up work can proceed and which work requires the new revision or a physical sample. |
+| Suppliers and milestones | Preserve both supplier forecasts. Trace the revised forecast to affected milestones and require the designated owner to approve any commitment change. |
+
+Score evidence, dependencies and approvals separately. For each workflow, record the source, which steps happened in the tool and which needed manual reconciliation. Use the [commitment evidence exercise](commitment-evidence-review.md) to test restricted access and the [tape-out readiness exercise](tape-out-readiness-review.md) to test sign-off evidence. See the [semiconductor program management guide](https://tymeline.ai/resources/semiconductor-program-management-software) for Tymeline's approach.
 
 ## Semiconductor equipment review worksheet
 
